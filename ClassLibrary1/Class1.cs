@@ -28,7 +28,9 @@ namespace ClassLibrary1
                     count++;
                 }
                 else
-                { break; }
+                {
+                    break;
+                }
             }
             Console.Write(str.Substring(count) + ending + "ay"); //Comment out for tests
             return ""; //return str.Substring(count) + ending + "ay"; (for testing)
