@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
@@ -38,7 +35,7 @@ namespace ClassLibrary1
         //-----Vowel?------
         static public bool VowelCheck(string str, int count)
         {
-            char current = str[count];
+            char current = str[0];
             if (current == 'a' || current == 'e' || current == 'i' || current == 'o' || current == 'u')
             {
                 return true;

@@ -1,6 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Lab6;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ClassLibrary1;
 
 namespace TranslatorTest
