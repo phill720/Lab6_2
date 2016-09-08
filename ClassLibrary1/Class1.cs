@@ -53,18 +53,24 @@ namespace ClassLibrary1
         static public bool Cont(string con)
         {
             if (con == "y")
-            { return true; }
+            {
+                return true;
+            }
             else
-            { return false; }
+            {
+                return false;
+            }
         }
         //-----Palindrome?------
         static public void Palin(string str)
         {
 
-            if (str.First() == str.Last())
+            if (str == "" || str.First() == str.Last() )
             {
-                if (str.Length == 1)
-                { Console.WriteLine("Is a palindrome"); }
+                if (str.Length == 1 || str.Length == 0)
+                {
+                    Console.WriteLine("\nIs a palindrome\n");
+                }
                 else
                 {
                     str = str.Trim(str.First());
@@ -72,8 +78,9 @@ namespace ClassLibrary1
                 }
             }
             else
-            { Console.WriteLine("Is not a palindrome"); }
-
+            {
+                Console.WriteLine("\nIs not a palindrome\n");
+            }
         }
     }
 }
